@@ -1,0 +1,44 @@
+{
+  "name": "typescript-test",
+  "version": "1.0.0",
+  "description": "My laudable Nuxt.js project",
+  "author": "takaho",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxt/typescript": "^2.6.1",
+    "@nuxtjs/axios": "^5.0.0",
+    "cross-env": "^5.2.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nuxt": "^2.6.1",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.3",
+    "vue-property-decorator": "^8.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^0.0.1",
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "@typescript-eslint/parser": "^1.6.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-plugin-nuxt": "^0.4.3",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-vue": "^4.0.0",
+    "nodemon": "^1.11.0",
+    "prettier": "1.14.3"
+  }
+}
