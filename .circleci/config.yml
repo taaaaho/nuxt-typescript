@@ -11,10 +11,6 @@ jobs:
 
     # working_directory: ~/repo
 
-    # environment:
-    #   FIREBASE_PROJECT: nuxt-typescript-1f7db
-    #   FIREBASE_TOKEN: 1/U5Nk4s5A2iRQqtvq1Ddi0WuxBaQlq39MDNNXDzHO3J79YOL45kCV3QnCBW5f98lh
-
     steps:
       # checkout source code
       - checkout
